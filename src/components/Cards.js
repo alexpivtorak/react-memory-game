@@ -9,7 +9,7 @@ import Card from './Card';
 const Cards = ({cards, updateHandle}) => {
 	var allCards = cards.map(function(card, index) {
 		let classes = cx({
-			'col-md-3': true,
+			'col-xs-3': true,
 			'card': true,
 			'is-hidden': !card.shown,
 			'is-shown':  card.shown,
