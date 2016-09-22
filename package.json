@@ -1,32 +1,32 @@
 {
-  "name": "react-hot-boilerplate",
+  "name": "react-memory-game",
   "version": "1.0.0",
-  "description": "Boilerplate for ReactJS project with hot code reloading",
+  "description": "The minimal memory game made with React and Bootstrap icons.",
   "scripts": {
     "start": "node server.js",
     "lint": "eslint src"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
+    "url": "https://github.com/alexpivtorak/react-memory-game.git"
   },
   "keywords": [
     "react",
     "reactjs",
-    "boilerplate",
-    "hot",
-    "reload",
-    "hmr",
-    "live",
-    "edit",
-    "webpack"
+    "memory",
+    "game",
+    "webpack",
+    "sass",
+    "bootstrap",
+    "alex",
+    "pivtorak"
   ],
-  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "author": "Alex Pivtorak <alex.pivtorak@gmail.com> (http://github.com/alexpivtorak)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
+    "url": "https://github.com/alexpivtorak/react-memory-game/issues"
   },
-  "homepage": "https://github.com/gaearon/react-hot-boilerplate",
+  "homepage": "https://github.com/alexpivtorak/react-memory-game",
   "devDependencies": {
     "babel-core": "^6.0.20",
     "babel-eslint": "^4.1.3",
@@ -35,21 +35,20 @@
     "babel-preset-react": "^6.0.15",
     "babel-preset-stage-0": "^6.0.15",
     "bootstrap-sass": "^3.3.7",
-    "bootstrap-sass-loader": "^1.0.10",
     "css-loader": "^0.25.0",
     "eslint": "^1.10.3",
     "eslint-plugin-react": "^3.6.2",
     "file-loader": "^0.9.0",
-    "imports-loader": "^0.6.5",
     "node-sass": "^3.10.0",
     "react-addons-update": "^15.3.2",
     "react-classset": "0.0.2",
     "react-hot-loader": "^1.3.0",
+    "resolve-url-loader": "^1.6.0",
     "sass-loader": "^4.0.2",
     "shuffle-array": "^1.0.0",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
-    "webpack": "^1.12.2",
+    "webpack": "^1.13.2",
     "webpack-dev-server": "^1.12.1"
   },
   "dependencies": {

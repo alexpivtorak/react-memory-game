@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import App from './containers/App';
 
 // Styles
-// require('bootstrap-sass');
+import 'bootstrap-loader';
 import '../sass/style.scss';
 
 // Render

@@ -89,7 +89,10 @@ class App extends React.Component {
 
 		return (
 			<div className="container">
-				<h1>&nbsp;{cards.win}</h1>
+				<h2>
+					&nbsp;{cards.win}
+					<small>click to reveal the cards and form pairs</small>
+				</h2>
 				<Cards
 					cards={cards}
 					updateHandle={this.updateHandle}
